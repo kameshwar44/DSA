@@ -6,7 +6,7 @@ function isplaindrome(str){
       return str[0]== str.slice(-1) && isplaindrome(str.slice(1,-1))
       
 }
-console.log(isplaindrome(str));
+console.log(isplaindrome(str))
 
 
 
