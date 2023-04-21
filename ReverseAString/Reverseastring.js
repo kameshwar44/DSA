@@ -16,7 +16,7 @@ function reverse(arr,i,j){
     }
     return arr
 }
-let str = "emocleW ot siht tpircsavaJ !ediuG";
+let str = "emocleW ot siht tpircsavaJ !ediuG"
 let arr = str.split('')
 let newarr = []
 newarr.push(reverse(arr,arr.length-1,0).join(''))
