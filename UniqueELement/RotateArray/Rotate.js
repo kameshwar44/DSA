@@ -6,11 +6,11 @@ function reverse(arr,i,j){
         arr[i]= arr[i] + arr[j];
         arr[j] = arr[i] - arr[j];
         arr[i] = arr[i] - arr[j];
-        i++
-        j--
+        i++;
+        j--;
         
     }
-    console.log(arr)
+    console.log(arr);
         
 }
 reverse(arr,0,arr.length-1)
