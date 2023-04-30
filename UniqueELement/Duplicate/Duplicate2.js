@@ -9,11 +9,11 @@ function removeDuplicates(nums) {
     
     }
 
-    nums.length = j;
+    nums.length = j;      //sets the length of arr to j, which is the new length of the array after removing duplicates
     return nums;
   }
   
-  let nums = [1, 2, 2, 4, 9, 9, 5, 5];
+  let nums = [1, 2, 2, 4, 5, 5,8,8,8,8];
   nums = removeDuplicates(nums);
   console.log("Array with duplicates removed:", nums);
 //   -------------------------------------------
