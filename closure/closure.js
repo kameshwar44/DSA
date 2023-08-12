@@ -1,3 +1,14 @@
+function parent(){
+    let first = "Suresh"
+    function child(){
+      let last = "kumar"
+      console.log(first+last)
+    }
+    child();
+  }
+parent()
+
+
 // function sum(a,b,c){
 //     return{
 //        sumoftwo:function(){
