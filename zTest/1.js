@@ -1,14 +1,12 @@
+// const myPromise = new Promise((resolve,reject)=>{
 
+//     let randomNum = Math.floor(Math.random()*10)
 
-
-
-myFunction()
-function myFunction(){
-    console.log("Hello World");
-}
-
-
-
- x = 19;
-console.log(x)
-var x;
+//     if(randomNum>5){
+//         console.log(`Success! Its Greater ${randomNum}`)
+//     }
+//     else{
+//         console.log(`Erorr Its Not ${randomNum}`);
+//     }
+// })
+// myPromise()
