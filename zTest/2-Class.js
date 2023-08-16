@@ -1,31 +1,39 @@
-let car = "Honda";
+// let car = "Honda";
 
-class Car {
-  static numofWheels = 4;
+// class Car {
+//   static numofWheels = 4;
 
-  constructor(model, year) {
-    this.model = model;
-    this.year = year;
-  }
-  start() {
-    console.log(`${this.model} started`);
-  }
+//   constructor(model, year) {
+//     this.model = model;
+//     this.year = year;
+//   }
+//   start() {
+//     console.log(`${this.model} started`);
+//   }
+// }
+
+
+// const myCar = new Car("Honda", 2023)
+
+// console.log(myCar.model);
+// console.log(Car.numofWheels);
+
+// myCar.start()
+
+
+
+
+
+
+
+
+var obj = {
+    name: "Harsh",
+    someMethod : function(){
+        console.log(this);
+    }
 }
-
-
-const myCar = new Car("Honda", 2023)
-
-console.log(myCar.model);
-console.log(Car.numofWheels);
-
-myCar.start()
-
-
-
-
-
-
-
+console.log(obj.someMethod());
 
 
 
