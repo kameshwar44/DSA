@@ -73,12 +73,27 @@
 let arr = [10, 20, 10, 20, 30, 40, 30, 40];
 
 function distinct(arr) {
-  let newarr = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (newarr.indexOf(arr[i]) == -1) {
-      newarr.push(arr[i]);
+    let newarr = [];
+    for (let i = 0; i < arr.length; i++) {
+      if (newarr.indexOf(arr[i]) == -1) {
+        newarr.push(arr[i]);
+      }
     }
+    return newarr;
   }
-  return newarr;
-}
-console.log(distinct(arr));
+  console.log(distinct(arr));
+
+
+// let newarr = [10]
+
+// for(let i=0;i<arr.length;i++){
+//     if(newarr.indexOf(arr[i])){
+//         console.log(false);
+
+//     }
+//     else{
+//         console.log(true);
+//     }
+// }
+
+

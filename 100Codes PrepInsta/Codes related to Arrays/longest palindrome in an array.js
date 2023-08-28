@@ -45,18 +45,23 @@ function palindrome(n){
 }
 
 
-function checklongestPalindrome(arr){
-  let longestpaln = arr[0]
-  for(let i=0;i<arr.length;i++){
-    if(arr[i]>longestpaln && palindrome(i) ){
-      longestpaln = arr[i]
-    }
-  }
-  return longestpaln
+// function checklongestPalindrome(arr){
+//   let longestpaln = arr[0]
+//   for(let i=0;i<arr.length;i++){
+//     if(arr[i]>longestpaln && palindrome(i) ){
+//       longestpaln = arr[i]
+//     }
+//   }
+//   return longestpaln
 
-}
+// }
+
+// let arr = [2222222222,1, 121, 55551, 545545, 10111, 90,2,3,23,24,,434343434];
+// console.log(checklongestPalindrome(arr));
+
 
 let arr = [2222222222,1, 121, 55551, 545545, 10111, 90,2,3,23,24,,434343434];
-console.log(checklongestPalindrome(arr));
 
-
+function longestPalindrome(arr){
+  
+}

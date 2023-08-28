@@ -1,7 +1,7 @@
 // let arr = [1, 7, 8, 4, 5, 16, 8]
 // let Evencount =0 , Oddcount=0
 // for(let i=0;i<arr.length;i++){
-    
+
 //     if(arr[i]%2==0){
 //         console.log(arr[i])
 //         Evencount++
@@ -11,17 +11,10 @@
 // console.log("Evens Are " + Evencount)
 // console.log("Odds Are " + Oddcount)
 
-
-
-
-
-
-
-
 // let arr = [1, 7, 8, 4, 5, 16, 8]
 // let count =0
 // for(let i=0;i<arr.length;i++){
-    
+
 //     if(arr[i]%2==0){
 //         console.log(arr[i])
 //         count++
@@ -30,8 +23,6 @@
 // }
 // console.log("Evens Are " + count)
 // console.log("Odds Are  "+(arr.length-count))
-
-
 
 // function countoddOrEven(arr){
 //     let countEven =0
@@ -46,10 +37,27 @@
 //     }
 //     return [countEven,countEOdd]
 
-    
 // }
 
 // let arr = [1,2,3,4,6]
 // console.log(countoddOrEven(arr));
 
 
+
+
+
+let arr = [1, 7, 8, 4, 5, 16, 8];
+
+function oddorEven(arr) {
+  let odd = 0,
+    even = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+      even++;
+    } else {
+      odd++;
+    }
+  }
+  return [odd, even];
+}
+console.log(oddorEven(arr));
