@@ -24,7 +24,7 @@ let arr = [61, 24, 2, 45, 54, 46, 466, 7, 64, 32, 1443];
 
 function largestAndSmallest(arr){
   let maxarr = -9999
-  let minarr = 9999
+  let minarr = 99999
   for(let i=0;i<arr.length;i++){
     if(arr[i]>maxarr){
       maxarr =arr[i]

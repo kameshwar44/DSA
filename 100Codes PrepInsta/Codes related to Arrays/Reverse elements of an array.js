@@ -80,21 +80,44 @@
 // let arr = [1,2,34,3,4,345,5,66,7]
 // console.log((bubblesort(arr)));
 
-function reverse(arr,i,j) {
+// function reverse(arr,i,j) {
  
-  while (i < j) {
-    let temp =arr[i];
-    arr[i]= arr[j];
-    arr[j] = temp;
-    i++;
-    j--;
-  }
-  return arr
-}
+//   while (i < j) {
+//     let temp =arr[i];
+//     arr[i]= arr[j];
+//     arr[j] = temp;
+//     i++;
+//     j--;
+//   }
+//   return arr
+// }
 
-let arr = [1,2,3,4,5,6,7,8];
-let k= 3
+// let arr = [1,2,3,4,5,6,7,8];
+// let k= 3
 
-console.log(reverse(arr,0,arr.length-1));
-console.log(reverse(arr,0,k));
-console.log(reverse(arr,k,arr.length-1));
+// console.log(reverse(arr,0,arr.length-1));
+// console.log(reverse(arr,0,k));
+// console.log(reverse(arr,k,arr.length-1));
+
+
+
+
+
+
+// let arr = [10,20,30,5,30,4,404]
+
+// function reverse(arr,i,j){
+ 
+//   while(i<j){
+//     let temp = arr[i];
+//     arr[i]= arr[j];
+//     arr[j]= temp;
+//     i++;
+//     j--
+//   }
+//   return arr
+// }
+// let k=3
+// console.log(reverse(arr,0,arr.length-1));
+// console.log(reverse(arr,0,k));
+// console.log(reverse(arr,k,arr.length-1));

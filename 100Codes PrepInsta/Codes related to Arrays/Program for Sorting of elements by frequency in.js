@@ -14,4 +14,10 @@ let newarr = [];
 mp.forEach((values, key) => {
   for (let i = 0; i < values; i++) newarr.push(key);
 });
-console.log(newarr.sort((a,b)=>b-a));
+console.log(newarr.sort());
+
+
+
+
+
+
